@@ -10,7 +10,7 @@ const int WHITESPACE = 30; //whitespace between pictures
 //user settings
 void settings(std::string &filename, int &waittime, int & repeats) {
     std::cout << "Enter filename: ";
-    std::cin >> filename;
+    std::getline(std::cin, filename);
     std::cout << "Enter delay between frames in milliseconds: ";
     std::cin >> waittime;
     std::cout << "Enter amount of repeats (0 = infinite): ";
