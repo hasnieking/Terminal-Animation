@@ -32,6 +32,6 @@
 *.app
 
 # Own files
-*.txt
 .vscode
 termani
+*_dance
